@@ -28,9 +28,19 @@ Contents
 ========
 
 * [Versions](#versions)
+* [Features](#features)
 * [Credits](#credits)
 
 
+
+
+
+### Features
+---
+
+![alt text](https://imgur.com/z5A8jXO)
+
+You can add the script to your Autostart folder, so whenever you start your computer, it launches automatically!
 
 ### Versions
 ---
