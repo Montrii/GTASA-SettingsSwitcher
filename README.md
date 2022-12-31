@@ -21,6 +21,8 @@ and based on that, we can say who owns that executable.
 
 (For example, Multi Theft Auto.exe executes "proxy_sa.exe" (which is gta_sa.exe), where as samp.exe or advanced processes like sampcmd.exe execute gta_sa.exe)
 
+This in turns allows for save launching of different game folders without the fear of losing your settings entirely (happens under constant v1.00 and v1.01 launching).
+
 
 Contents
 ========
