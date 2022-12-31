@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Development\\Visual Studio\\GTASA-SettingsSwitcher\\SystemTrayApp\\GTASASettingsChanger.csproj": {}
+  },
+  "projects": {
+    "D:\\Development\\Visual Studio\\GTASA-SettingsSwitcher\\SystemTrayApp\\GTASASettingsChanger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Visual Studio\\GTASA-SettingsSwitcher\\SystemTrayApp\\GTASASettingsChanger.csproj",
+        "projectName": "GTASASettingsSwitcher",
+        "projectPath": "D:\\Development\\Visual Studio\\GTASA-SettingsSwitcher\\SystemTrayApp\\GTASASettingsChanger.csproj",
+        "packagesPath": "C:\\Users\\Drago\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Visual Studio\\GTASA-SettingsSwitcher\\SystemTrayApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

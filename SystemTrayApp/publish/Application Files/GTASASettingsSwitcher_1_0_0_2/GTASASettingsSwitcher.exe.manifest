@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GTASASettingsSwitcher.exe" version="1.0.0.2" publicKeyToken="4197bf1d33502c82" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\Default.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GTASASettingsSwitcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GTASASettingsSwitcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTASASettingsSwitcher.exe" size="24000">
+      <assemblyIdentity name="GTASASettingsSwitcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xjvsLdGABnXXbwEWMrSNpmhz8oCngRWL3E1aaI4eTtc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Toolkit.Uwp.Notifications.dll" size="162448">
+      <assemblyIdentity name="Microsoft.Toolkit.Uwp.Notifications" version="7.1.0.0" publicKeyToken="4AFF67A105548EE2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oLW+lYC/ZUj2hdeeVDn22UbvV+AT0gH5RrKolOdEGAQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xcg7vBdBvm/0xJDAruNMFilFQj7Fd8ZGU4stIc4TGZ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.ValueTuple.dll" size="25232">
+      <assemblyIdentity name="System.ValueTuple" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6QXRAlhbIsbfBPIZr1y9v6e8Fll56XiLYt9tzBZeEPQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GTASASettingsSwitcher.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Default.ico" size="318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XDBjEjWDYsp3DIY5CLk/ii9BYcFHXDFvRRtcwTx3wog=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JUSTINS-PC\Drago" issuerKeyHash="3690180119bbfdb408c38c92455c96f4a3377d63" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ACKxxVuxv4ofBpuC09Vd9hn1t+hauIxAS4l/Cg0Vuys=</DigestValue></Reference></SignedInfo><SignatureValue>oNcj+4HMAFbSaZVQr6517WVAqNXHf8sYoAhCzmoKbkXP50c8q9M6mOxcdeTYCNnfZtomSy79+INdtrucT2tkHACK6GZb/3h9OC1Lq3iL4c8LYPsaWzQniYU+QSl3rYH/ouYo1rx31YK0R3+F8E9jKUUOw0SFWm32m8hMwMhCEWc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vKk2w0RDuhKKpjsjoMqrFX2rxTwESVFcdQ3+we++0ImebLGrOlud/Z3sqG4YhCyEBKsw4cndv1TQCqiIO/kaJHqPY02pMgL3welVtuAA3KwMmVXIjdzoqSKTViLwNbcAkvuo9/spQM/ztXRWmH8PGYPH3tpjqFOtRUmkxSeFbwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2bbb150d0a7f894b408cb85ae8b7f519f65dd5d3829b061f8abfb15bc5b12200" Description="" Url=""><as:assemblyIdentity name="GTASASettingsSwitcher.exe" version="1.0.0.2" publicKeyToken="4197bf1d33502c82" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JUSTINS-PC\Drago</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VsEDFwX2OuJ2FCiCDpVzWYOGdQyKOA9WgLKpAXPVLJU=</DigestValue></Reference></SignedInfo><SignatureValue>eQyl17Iy3zrEVxlksAEOq/z4t6nkgDwYiqmcQZKB58gN/RADnzJJq8j3dKc2xBgBNrU6V+0US9jG8dXUWUboi6z/QFA8J6VBJjkZ9GBfW2W78A80xtNx/RllF8dtirMpVTqaH0SHniIPU77VkSNIEw36FIOadfDhYPCBjELsnKg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vKk2w0RDuhKKpjsjoMqrFX2rxTwESVFcdQ3+we++0ImebLGrOlud/Z3sqG4YhCyEBKsw4cndv1TQCqiIO/kaJHqPY02pMgL3welVtuAA3KwMmVXIjdzoqSKTViLwNbcAkvuo9/spQM/ztXRWmH8PGYPH3tpjqFOtRUmkxSeFbwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQJpk88GwW5JFIMcKsgEAYLjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASgBVAFMAVABJAE4AUwAtAFAAQwBcAEQAcgBhAGcAbzAeFw0yMjEyMzExMTU0NDhaFw0yMzEyMzExNzU0NDhaMCsxKTAnBgNVBAMeIABKAFUAUwBUAEkATgBTAC0AUABDAFwARAByAGEAZwBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8qTbDREO6EoqmOyOgyqsVfavFPARJUVx1Df7B777QiZ5ssas6W539neyobhiELIQEqzDhyd2/VNAKqIg7+Rokeo9jTakyAvfB6VW24ADcrAyZVciN3OipIpNWIvA1twCS+6j3+ylAz/O1dFaYfw8Zg8fe2mOoU61FSaTFJ4VvAQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJJBGDZ9EOxG9KD+4/3LbxUr4PbxcMfq7bkgCzbLRRqlSHbeB4OQUvi20gKAMf1oU2QQ0Pw2UJ+MEmB5oox8kn3T83bthVCx86/2BT+udCeWLNuIL6Pvcgy/moNTdV3n5wsS0wLrSRwYGUBgHrFEYFjv7jya7j5Z+kFz3lFqlxRf</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
