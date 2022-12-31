@@ -38,7 +38,7 @@ Contents
 ### Features
 ---
 
-![alt text](https://imgur.com/z5A8jXO)
+![alt text](https://imgur.com/a/mtwRHfW)
 
 You can add the script to your Autostart folder, so whenever you start your computer, it launches automatically!
 
