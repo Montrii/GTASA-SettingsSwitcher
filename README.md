@@ -38,7 +38,11 @@ Contents
 ### Features
 ---
 
-![alt text](https://imgur.com/a/mtwRHfW)
+
+
+![alt text](https://cdn.discordapp.com/attachments/1003301547540746271/1058873663551717436/Screenshot_518.png)
+
+
 
 You can add the script to your Autostart folder, so whenever you start your computer, it launches automatically!
 
